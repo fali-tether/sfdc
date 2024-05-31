@@ -11,7 +11,6 @@ private class TestUpsertRecordsFlowAction {
         };
 
         insert accounts; 
-
         // Prepare your wrapper
         UpsertDetailsRequest wrapper = new UpsertDetailsRequest();
         List<SObject> upsertTestRecords = new List<SObject>();
