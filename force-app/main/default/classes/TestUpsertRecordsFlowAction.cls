@@ -9,7 +9,6 @@ private class TestUpsertRecordsFlowAction {
             new Account(Name = 'Test Account 1'),
             new Account(Name = 'Test Account 2')
         };
-
         insert accounts; 
         // Prepare your wrapper
         UpsertDetailsRequest wrapper = new UpsertDetailsRequest();
@@ -56,6 +55,7 @@ private class TestUpsertRecordsFlowAction {
         wrapper.BatchSize = 200; // Example batch size
 
         // Call your invocable method
+
         Test.startTest();
         
         // Mocking future calls in test context
