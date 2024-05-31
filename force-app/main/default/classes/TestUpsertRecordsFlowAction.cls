@@ -21,7 +21,6 @@ private class TestUpsertRecordsFlowAction {
 
         // Call your invocable method
         Test.startTest();
-        
         // Mocking future calls in test context
         List<UpsertDetailsResultForFlow> results = UpsertRecordsFlowAction.upsertRecords(new List<UpsertDetailsRequest>{wrapper});
 
